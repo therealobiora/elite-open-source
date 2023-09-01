@@ -1,0 +1,138 @@
+main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    width: 90vw;
+    height: 95vh;
+    background-color: #fff;
+}
+.firstset{
+    width: 90vw;
+    height: 15vh;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 12px;
+}
+.firstset b{
+    color: red;
+    font-size: 17px;
+}
+h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.secondset-i{
+    width: 90vw;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.M-list{
+    width: 55vw;
+    height: inherit;
+    /* border: 1px solid blue; */
+}
+.in-in{
+    width: 50vw;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+.in-in-1{
+    width: 35vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+}
+.in-in-2{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.in-in-1 div{
+    background: #fff;
+    width: 10vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.P-text{
+    width: 25vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 42px;
+}
+.P-text div{
+    width: 25vw;
+    height: 60vh;
+}
+.P-text b{
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.P-text p{
+    font-family: sans-serif;
+    line-height: 25px;
+    color: #222121;
+    font-weight: 300;
+}
+strong{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.but-one{
+    width: 7rem;
+    height: 2rem;
+    color: #fff;
+    background: green;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+}
+.row-boxes{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    border-bottom: 1px solid #a5a4a4;
+}
+
+.boxes-in{
+    width: 12.5vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.web-d{
+    color: rgb(233, 17, 17);
+}
+.in-in-2 b{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.in-in-2 p{
+    font-size: 14px;
+}
+.color-text{
+    color: green !important;
+}
