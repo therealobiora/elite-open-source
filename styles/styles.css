@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/hero.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.main h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+}
+
+.word {
+  color: red;
+}
+.main p {
+  margin: 10px 0px;
+  color: white;
+}
+.line {
+  border-bottom: 5px solid white;
+  width: 70px;
+  border-radius: 7px;
+}
+
+.buttons {
+  display: flex;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.one {
+  display: inline-block;
+  margin-right: 10px;
+  height: 40px;
+  width: 150px;
+  background-color: #43ba7f;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+.two {
+  display: inline-block;
+  margin-left: 10px;
+  height: 40px;
+  width: 135px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
