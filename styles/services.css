@@ -1,0 +1,88 @@
+/* body {
+} */
+main {
+  background: #fff;
+  width: 99vw;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SERVICE-BOXES {
+  width: 88vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box-ii {
+  width: 43vw;
+  height: 26vh;
+  display: flex;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+.box-ii-ii {
+  width: 43vw;
+  height: 30vh;
+  display: flex;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+}
+.box-ii-icon {
+  width: 10vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s, 0.05s;
+  align-items: center;
+}
+.box-ii:hover .box-ii-icon {
+  transform: scale(1.01) translateY(10%);
+  animation: 0.5s ease-in-out;
+}
+.box-ii-ii:hover .box-ii-ii-icon {
+  transform: scale(1.01) translateY(10%);
+  animation: 1.4s ease-in-out;
+}
+.box-ii-text {
+  width: 33vw;
+  height: 26vh;
+  padding-top: 10px;
+}
+.box-ii-ii-icon {
+  width: 10vw;
+  height: 19vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-ii-ii-text {
+  padding-top: 10px;
+  width: 33vw;
+  height: 30vh;
+}
+.fa-box-archive,
+.fa-charging-station,
+.fa-suitcase,
+.fa-archway,
+.fa-puzzle-piece,
+.fa-cloud {
+  font-size: 65px;
+  color: #43ba7f;
+}
+p {
+  font-family: sans-serif;
+  line-height: 27px;
+  color: #161616;
+}
+h1 {
+  font-family: sans-serif;
+  color: #161616;
+}
