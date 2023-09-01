@@ -1,0 +1,220 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: inherit;
+  background-color: white;
+}
+
+.contactus,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  height: 70vh;
+  width: 99.5%;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../assets/contact2.jpg);
+
+  background-position: center;
+  background-size: 110%;
+}
+.contact {
+  width: 40vw !important;
+  height: 40vh !important;
+  justify-content: flex-end !important;
+  border: none !important;
+  background-image: none;
+}
+.hr {
+  width: 5vw;
+  height: 0vh;
+  font-weight: 900;
+  font-size: 0px;
+  margin-bottom: 130px;
+  border: 3px solid white;
+  border-radius: 10%;
+}
+
+.map {
+  height: 150vh;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map0 {
+  width: 90%;
+  height: 100vh;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  background-image: url(../assets/Mexant\ map.png);
+  background-size: 100%;
+  margin-top: 100px;
+}
+
+.boxes {
+  display: flex;
+  width: 70%;
+  height: 40vh;
+  position: relative;
+  bottom: 7%;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.email {
+  /* border: 1px solid black; */
+  width: 20vw;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  line-height: 35px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition-property: all;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.email i {
+  font-size: 40px;
+  color: #43ba7f;
+}
+
+.email p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #212741;
+}
+
+.email a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #43ba7f;
+
+  text-decoration: none;
+}
+
+.email a:hover {
+  color: red;
+}
+.email:hover {
+  transform: translateY(-20px);
+  /* height: 6vh; */
+}
+
+.form {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.us {
+  height: 20vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.us h2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.us h4 {
+  color: red;
+}
+.formmain {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 70vh;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.name {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  width: inherit;
+  justify-content: space-between;
+}
+
+input {
+  width: 37vw;
+  height: 10vh;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  border: none;
+  padding-left: 15px;
+}
+
+.message {
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+}
+
+.message input {
+  height: 30vh !important;
+  width: 98.3% !important;
+  padding-bottom: 13%;
+}
+
+button {
+  width: 14vw;
+  height: 8vh;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #43ba7f;
+}
